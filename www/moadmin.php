@@ -11,7 +11,11 @@
  * @license GPL v3 - http://vork.us/go/mvz5
  */
 
-require "~/etc/mongoadmin-config.inc";
+/*****
+	*  * Change this to your local config file location!!!!!
+	*   */
+require "/usr/local/etc/mongoadmin-config.php";
+
 
 /**
  * Vork core-functionality tools

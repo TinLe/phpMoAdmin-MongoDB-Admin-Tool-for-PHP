@@ -29,6 +29,24 @@
 define('THEME', 'trontastic');
 
 /**
+ * Allow connections to more than one MongoDB Host, port, DB, etc.
+ */
+$mongoServers = array(
+	'Server 1' => array(
+		'host' => 'localhost',
+		'port' => '27017',
+		'db'   => '',
+		'user' => '',
+		'password' => ''),
+	'Server 2' => array(
+		'host' => 'foo.mongolab.com',
+		'port' => '27777',
+		'db'   => 'db123',
+		'user' => 'db123',
+		'password' => 'db123'),
+);
+
+/**
  * To connect to a remote or authenticated Mongo instance, define the connection string in the MONGO_CONNECTION constant
  * mongodb://[username:password@]host1[:port1][,host2[:port2:],...]
  * If you do not know what this means then it is not relevant to your application and you can safely leave it as-is
