@@ -11,7 +11,7 @@
  * @license GPL v3 - http://vork.us/go/mvz5
  */
 
-require "../config.inc";
+require "~/etc/mongoadmin-config.inc";
 
 /**
  * Vork core-functionality tools
